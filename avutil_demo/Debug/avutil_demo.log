@@ -1,0 +1,42 @@
+﻿生成启动时间为 3/18/2016 5:49:41 PM。
+     1>项目“D:\mycode\ffmpeg\avutil_demo\avutil_demo.vcxproj”在节点 5 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\avutil_demo.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt avutil_demo.c
+         avutil_demo.c
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\error.h(109): error C2054: 在“inline”之后应输入“(”
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\error.h(110): error C2085: “av_make_error_string”: 不在形参表中
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\error.h(110): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\mem.h(93): error C2054: 在“inline”之后应输入“(”
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\mem.h(94): error C2085: “av_malloc_array”: 不在形参表中
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\mem.h(94): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\mem.h(228): error C2054: 在“inline”之后应输入“(”
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\mem.h(229): error C2085: “av_mallocz_array”: 不在形参表中
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\mem.h(229): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\mem.h(337): error C2054: 在“inline”之后应输入“(”
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\mem.h(338): error C2085: “av_size_mult”: 不在形参表中
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\mem.h(338): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\rational.h(53): error C2054: 在“inline”之后应输入“(”
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\rational.h(54): error C2085: “av_make_q”: 不在形参表中
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\rational.h(54): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\rational.h(66): error C2054: 在“inline”之后应输入“(”
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\rational.h(66): error C2085: “av_cmp_q”: 不在形参表中
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\rational.h(66): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\rational.h(80): error C2054: 在“inline”之后应输入“(”
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\rational.h(80): error C2085: “av_q2d”: 不在形参表中
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\rational.h(80): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\avutil.h(301): error C2054: 在“inline”之后应输入“(”
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\avutil.h(302): error C2085: “av_x_if_null”: 不在形参表中
+     1>d:\project\multimedia\ffmpeg\ffmpeg-20150615-git-5b0f55a\vs2010_build\include\libavutil\avutil.h(302): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\mycode\ffmpeg\avutil_demo\avutil_demo.c(70): warning C4047: “函数”:“int”与“void *”的间接级别不同
+     1>d:\mycode\ffmpeg\avutil_demo\avutil_demo.c(70): warning C4024: “av_opt_show2”: 形参和实参 4 的类型不同
+     1>d:\mycode\ffmpeg\avutil_demo\avutil_demo.c(72): warning C4047: “函数”:“int”与“void *”的间接级别不同
+     1>d:\mycode\ffmpeg\avutil_demo\avutil_demo.c(72): warning C4024: “av_opt_show2”: 形参和实参 4 的类型不同
+     1>d:\mycode\ffmpeg\avutil_demo\avutil_demo.c(74): warning C4047: “函数”:“int”与“void *”的间接级别不同
+     1>d:\mycode\ffmpeg\avutil_demo\avutil_demo.c(74): warning C4024: “av_opt_show2”: 形参和实参 4 的类型不同
+     1>d:\mycode\ffmpeg\avutil_demo\avutil_demo.c(76): warning C4047: “函数”:“int”与“void *”的间接级别不同
+     1>d:\mycode\ffmpeg\avutil_demo\avutil_demo.c(76): warning C4024: “av_opt_show2”: 形参和实参 4 的类型不同
+     1>已完成生成项目“D:\mycode\ffmpeg\avutil_demo\avutil_demo.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.20

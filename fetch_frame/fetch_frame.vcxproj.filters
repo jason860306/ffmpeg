@@ -29,7 +29,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="fetch_frame.cpp">
+    <ClCompile Include="fetch_frame_rgb2jpeg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

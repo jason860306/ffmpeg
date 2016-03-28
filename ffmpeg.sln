@@ -27,7 +27,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "download_rtmp", "download_r
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "avutil_demo", "avutil_demo\avutil_demo.vcxproj", "{0BB3A709-521E-4B4F-AC1A-BBEF0BC0B83A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fetch_frame", "fetch_frame\fetch_frame.vcxproj", "{AFA73A0A-A8AB-4431-A7D5-76A438DAB269}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fetch_frame_rgb2jpeg", "fetch_frame\fetch_frame.vcxproj", "{AFA73A0A-A8AB-4431-A7D5-76A438DAB269}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "save_frame_jpeg", "save_frame_jpeg\save_frame_jpeg.vcxproj", "{5559C238-E25A-4E70-8A82-E867DCFA9E1A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jpeg_enc", "jpeg_enc\jpeg_enc.vcxproj", "{C439E02E-F908-4E59-9B50-A03A23642DBC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fetch_frame_yuv2jpeg", "fetch_frame_yuv2jpeg\fetch_frame_yuv2jpeg.vcxproj", "{1FDE3C92-6368-438E-8630-34379BF01A46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +93,18 @@ Global
 		{AFA73A0A-A8AB-4431-A7D5-76A438DAB269}.Debug|Win32.Build.0 = Debug|Win32
 		{AFA73A0A-A8AB-4431-A7D5-76A438DAB269}.Release|Win32.ActiveCfg = Release|Win32
 		{AFA73A0A-A8AB-4431-A7D5-76A438DAB269}.Release|Win32.Build.0 = Release|Win32
+		{5559C238-E25A-4E70-8A82-E867DCFA9E1A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5559C238-E25A-4E70-8A82-E867DCFA9E1A}.Debug|Win32.Build.0 = Debug|Win32
+		{5559C238-E25A-4E70-8A82-E867DCFA9E1A}.Release|Win32.ActiveCfg = Release|Win32
+		{5559C238-E25A-4E70-8A82-E867DCFA9E1A}.Release|Win32.Build.0 = Release|Win32
+		{C439E02E-F908-4E59-9B50-A03A23642DBC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C439E02E-F908-4E59-9B50-A03A23642DBC}.Debug|Win32.Build.0 = Debug|Win32
+		{C439E02E-F908-4E59-9B50-A03A23642DBC}.Release|Win32.ActiveCfg = Release|Win32
+		{C439E02E-F908-4E59-9B50-A03A23642DBC}.Release|Win32.Build.0 = Release|Win32
+		{1FDE3C92-6368-438E-8630-34379BF01A46}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1FDE3C92-6368-438E-8630-34379BF01A46}.Debug|Win32.Build.0 = Debug|Win32
+		{1FDE3C92-6368-438E-8630-34379BF01A46}.Release|Win32.ActiveCfg = Release|Win32
+		{1FDE3C92-6368-438E-8630-34379BF01A46}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
