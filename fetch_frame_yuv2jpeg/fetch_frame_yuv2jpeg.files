@@ -1,0 +1,4 @@
+fetch_frame_yuv2jpeg.cpp
+stdafx.h
+targetver.h
+Makefile
